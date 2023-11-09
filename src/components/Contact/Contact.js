@@ -19,6 +19,7 @@ function Contact  () {
         <a href='mailto:sanaullahrasheed3@gmail.com' aria-label="email" className='link link--icon'> <MdEmail  size={60}/> </a>
 
          <a href='tel:+923099113463' aria-label="phone" className='link link--icon'> <FaPhone size={60}/> </a>
+
       </div>
      
     </section>
@@ -26,3 +27,5 @@ function Contact  () {
 }
 
 export default Contact
+
+//This is my personal portfolio website
