@@ -245,7 +245,7 @@ Discover and plan your journeys effortlessly with the Travel App. Explore destin
 
 <div>
 
-  <h3 className="about_project">Cara E-commerce Website Online Shopping</h3>
+  <h3 className="about_project">Cara E-commerce Web App</h3>
 
   <p className='project__description'>
   Our project portfolio proudly showcases the successful development and implementation of the Cara E-commerce Website. As a cutting-edge online shopping platform, Cara seamlessly blends user-friendly design with robust functionality to deliver an unparalleled shopping experience.
