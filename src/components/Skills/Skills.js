@@ -1,8 +1,8 @@
 
-import {FaHtml5,FaCss3Alt,FaReact,FaNodeJs,FaGithub} from "react-icons/fa"
+import {FaHtml5,FaCss3Alt,FaReact,FaNodeJs,FaGithub,FaNode,FaKeyboard,FaBootstrap} from "react-icons/fa"
 import {GrPersonalComputer} from "react-icons/gr"
 import {TbBrandJavascript} from "react-icons/tb"
-import {SiMongodb,SiRedux,SiExpress,SiChakraui,SiNetlify,SiVercel} from "react-icons/si"
+import {SiMongodb,SiRedux,SiExpress,SiChakraui,SiNetlify,SiVercel,SiTailwindcss} from "react-icons/si"
 import Githubcalendar from "react-github-calendar";
 
 import './Skills.css'
@@ -26,12 +26,12 @@ function Skills  () {
         </li>
 
         <li  className='skills__list-item btn btn--plain'>
-          <SiChakraui size={80} id="color"/>
+          <FaBootstrap size={80} id="color"/>
           <h5>BOOTSTRAP</h5>
         </li>
 
         <li  className='skills__list-item btn btn--plain'>
-          <SiChakraui size={80} id="color"/>
+          <SiTailwindcss size={80} id="color"/>
           <h5>Tailwind CSS</h5>
         </li>
 
@@ -70,12 +70,13 @@ function Skills  () {
 
 
         <li  className='skills__list-item btn btn--plain'>
-          <FaNodeJs size={80} id="color"/>
+          <FaNode size={80} id="color"/>
           <h5>NodeJs</h5>
         </li>
 
-        <li  className='skills__list-item btn btn--plain' style={{color:"#2978b5"}}>
-        <FaNodeJs size={80} id="color"/>
+        <li  className='skills__list-item btn btn--plain' >
+         
+        <FaKeyboard size={80} id="color"/>
         <h5>Professional Computer Trainer</h5>
       </li>
 
