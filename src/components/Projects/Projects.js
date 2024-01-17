@@ -245,10 +245,10 @@ Discover and plan your journeys effortlessly with the Travel App. Explore destin
 
 <div>
 
-  <h3 className="about_project">Deccan Herald Clone</h3>
+  <h3 className="about_project">Cara E-commerce Website Online Shopping</h3>
 
   <p className='project__description'>
-   Deccan Herald is an Indian English language daily newspaper published from the Indian state of Karnataka. Solo project executed in 5 days.
+  Our project portfolio proudly showcases the successful development and implementation of the Cara E-commerce Website. As a cutting-edge online shopping platform, Cara seamlessly blends user-friendly design with robust functionality to deliver an unparalleled shopping experience.
   </p>
 
 
