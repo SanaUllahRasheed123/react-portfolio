@@ -2,7 +2,7 @@
 import {FaHtml5,FaCss3Alt,FaReact,FaNodeJs,FaGithub,FaNode,FaKeyboard,FaBootstrap} from "react-icons/fa"
 import {GrPersonalComputer} from "react-icons/gr"
 import {TbBrandJavascript} from "react-icons/tb"
-import {SiMongodb,SiRedux,SiExpress,SiChakraui,SiNetlify,SiVercel,SiTailwindcss} from "react-icons/si"
+import {SiMongodb,SiRedux,SiExpress,SiChakraui,SiNetlify,SiVercel,SiTailwindcss,SiTypescript,SiNextdotjs,SiFirebase,SiPostman} from "react-icons/si"
 import Githubcalendar from "react-github-calendar";
 
 import './Skills.css'
@@ -30,10 +30,7 @@ function Skills  () {
           <h5>BOOTSTRAP</h5>
         </li>
 
-        <li  className='skills__list-item btn btn--plain'>
-          <SiTailwindcss size={80} id="color"/>
-          <h5>Tailwind CSS</h5>
-        </li>
+        
 
         <li  className='skills__list-item btn btn--plain'>
           <SiChakraui size={80} id="color"/>
@@ -41,32 +38,46 @@ function Skills  () {
         </li>
 
         <li  className='skills__list-item btn btn--plain'>
-          <FaReact size={80} id="color"/>
-          <h5 > React</h5>
-        </li>
-
-       
-
-        <li  className='skills__list-item btn btn--plain'>
           <TbBrandJavascript size={80} id="color"/>
           <h5> JavaScript</h5>
         </li>
 
+        <li  className='skills__list-item btn btn--plain'>
+          <FaReact size={80} id="color"/>
+          <h5 > React</h5>
+        </li>
 
         <li  className='skills__list-item btn btn--plain'>
-          <SiMongodb size={80} id="color"/>
-          <h5>MongoDB</h5>
+          <SiTailwindcss size={80} id="color"/>
+          <h5>Tailwind CSS</h5>
+        </li>
+
+        <li  className='skills__list-item btn btn--plain'>
+          <SiTypescript size={80} id="color"/>
+          <h5 >TypeScript</h5>
+        </li>
+
+        <li  className='skills__list-item btn btn--plain'>
+          <SiNextdotjs size={80} id="color"/>
+          <h5 >NextJs</h5>
         </li>
 
         <li  className='skills__list-item btn btn--plain'>
           <SiRedux size={80} id="color"/>
           <h5>Redux</h5>
         </li>
+        
 
-        <li  className='skills__list-item btn btn--plain'>
-          <SiExpress size={80} id="color"/>
-          <h5>Express</h5>
-        </li>
+       
+
+      
+
+
+       
+
+       
+
+       
 
 
         <li  className='skills__list-item btn btn--plain'>
@@ -74,10 +85,20 @@ function Skills  () {
           <h5>NodeJs</h5>
         </li>
 
+        <li  className='skills__list-item btn btn--plain'>
+          <SiExpress size={80} id="color"/>
+          <h5>Express</h5>
+        </li>
+
+        <li  className='skills__list-item btn btn--plain'>
+          <SiMongodb size={80} id="color"/>
+          <h5>MongoDB</h5>
+        </li>
+
         <li  className='skills__list-item btn btn--plain' >
          
-        <FaKeyboard size={80} id="color"/>
-        <h5>Professional Computer Trainer</h5>
+        <SiPostman size={80} id="color"/>
+        <h5>Postman</h5>
       </li>
 
         
@@ -87,6 +108,17 @@ function Skills  () {
           <FaGithub size={80} id="color"/>
           <h5>GitHub</h5>
         </li>
+
+        <li  className='skills__list-item btn btn--plain'>
+          <SiFirebase size={80} id="color"/>
+          <h5>Firebase</h5>
+        </li>
+
+        <li  className='skills__list-item btn btn--plain'>
+          <SiVercel size={80} id="color"/>
+          <h5>Versal</h5>
+        </li>
+
 
 
        

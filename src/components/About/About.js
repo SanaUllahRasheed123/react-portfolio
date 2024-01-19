@@ -61,13 +61,13 @@ function About  () {
                   <div id='interest' >
                    <h4 className='about__desc'> Some of my interests apart form Coding :</h4>
                
-                   <BiStar className='about__name'/> <span className='about__name'> Listing Music</span>
+                   <BiStar className='about__name'/> <span className='about__name'> Attending Live Concerts</span>
                    <br/>
-                   <BiStar className='about__name'/> <span className='about__name'> Playing Badminton </span>
+                   <BiStar className='about__name'/> <span className='about__name'> Playing Badminton,Cricket and Football</span>
                    <br/>
                    <BiStar className='about__name'/> <span className='about__name'> Watching Cricket</span>
                    <br/>
-                    <BiStar className='about__name' /> <span className='about__name'>Watching Movies</span>
+                    <BiStar className='about__name' /> <span className='about__name'>Reading Books</span>
                     </div>
                 </div>
                  
