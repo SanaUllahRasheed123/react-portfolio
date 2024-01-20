@@ -81,6 +81,8 @@ function Projects()
       <SiHtml5 size={40} />
        <IoLogoJavascript size={40} />
       <SiCss3 size={40}/>
+      <FaReact size={40}/>
+
 
     </li>
 
@@ -157,7 +159,9 @@ Discover and plan your journeys effortlessly with the Travel App. Explore destin
             <SiHtml5 size={40} />
              <IoLogoJavascript size={40} />
             <SiCss3 size={40}/>
-            <TbApi size={50}/>
+            {/* <TbApi size={50}/> */}
+      <FaReact size={40}/>
+
           </li>
       
         </ul>
@@ -258,7 +262,7 @@ Discover and plan your journeys effortlessly with the Travel App. Explore destin
       <SiHtml5 size={40} />
        <IoLogoJavascript size={40} />
       <SiCss3 size={40}/>
-      <FaReact size={40}/>
+      {/* <FaReact size={40}/> */}
 
     </li>
 
