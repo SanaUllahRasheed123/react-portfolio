@@ -24,12 +24,12 @@ function Skills  () {
 
          <li  className='skills__list-item btn btn--plain'>
           <FaHtml5 size={80} id="color" />
-          <h5> HTML5</h5>
+          <h5>HTML5</h5>
         </li>
 
         <li  className='skills__list-item btn btn--plain'>
           <FaCss3Alt size={80} id="color"/>
-          <h5> CSS3</h5>
+          <h5>CSS3</h5>
         </li>
 
         <li  className='skills__list-item btn btn--plain'>
