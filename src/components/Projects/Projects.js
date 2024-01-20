@@ -1,5 +1,5 @@
 import {FaReact} from "react-icons/fa"
-import {SiCss3,SiHtml5} from "react-icons/si"
+import {SiCss3,SiHtml5,SiTailwindcss,SiTypescript,SiNextdotjs} from "react-icons/si"
 import {TbApi} from "react-icons/tb"
 import {IoLogoJavascript} from "react-icons/io"
 
@@ -78,10 +78,12 @@ function Projects()
   <ul className='project__stack' >
  
     <li className='project__stack-item' id='stacks'>
-      <SiHtml5 size={40} />
-       <IoLogoJavascript size={40} />
-      <SiCss3 size={40}/>
+      {/* <SiHtml5 size={40} /> */}
       <FaReact size={40}/>
+      <SiTailwindcss size={40}/>
+
+       <SiTypescript size={40} />
+      <SiNextdotjs size={40}/>
 
 
     </li>
@@ -156,11 +158,11 @@ Discover and plan your journeys effortlessly with the Travel App. Explore destin
         <ul className='project__stack' >
        
           <li className='project__stack-item' id='stacks'>
-            <SiHtml5 size={40} />
-             <IoLogoJavascript size={40} />
-            <SiCss3 size={40}/>
-            {/* <TbApi size={50}/> */}
-      <FaReact size={40}/>
+          <FaReact size={40}/>
+      <SiTailwindcss size={40}/>
+
+       <SiTypescript size={40} />
+      <SiNextdotjs size={40}/>
 
           </li>
       
