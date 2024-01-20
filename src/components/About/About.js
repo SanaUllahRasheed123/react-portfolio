@@ -53,13 +53,13 @@ function About  () {
                  </div>
 
                 <div>
-                    <h4 className='about__desc'>
+                    <h4 className='about__desc' style={{ textAlign: 'justify' }}>
                       Hi Everyone, I am Sana Ullah from Lahore, Pakistan.
-                      I'm a student of BS Information Technology from University of Education, Township.
+                      I'm a student of BS Information Technology from University of Education, Township Lahore
                     </h4>
                     <br/>
                   <div id='interest' >
-                   <h4 className='about__desc'> Some of my interests apart form Coding :</h4>
+                   <h4 className='about__desc'> Some of my interests apart from Coding :</h4>
                
                    <BiStar className='about__name'/> <span className='about__name'> Attending Live Concerts</span>
                    <br/>
@@ -99,9 +99,9 @@ function About  () {
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
             >
-              Government College of Science Wahdat Road Lahore (Front End Development)
+              Government College of Science Wahdat Road Lahore <br></br> (Front End Development)
             </h4>
-            <p data-aos="fade-right">
+            <p data-aos="fade-right" style={{ textAlign: 'justify' }}>
               Joined the College Bootcamp to learn Web Development
               and Data Structures. Also learned many soft skills in the process.
             </p>

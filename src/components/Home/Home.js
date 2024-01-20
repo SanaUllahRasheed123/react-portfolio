@@ -20,8 +20,10 @@ function Home()
       </h2> 
 
 
-        <p id="des">Adaptable and responsible web developer capable of writing production ready code using HTML, CSS, JavaScript,
-         React.Js on the front-end and NodeJs, Express.Js, and MongoDB on the back-end to build single-page applications.</p>
+        <p id="des" style={{ textAlign: 'justify' }}>
+
+        Versatile and conscientious web developer proficient in crafting production-ready code utilizing HTML, CSS, JavaScript, and React.js for front-end development. Experienced in utilizing Node.js, Express.js, and MongoDB on the back-end to construct efficient single-page applications. 
+         </p>
   
  
        <section id="social">
