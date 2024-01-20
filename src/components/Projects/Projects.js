@@ -70,9 +70,10 @@ function Projects()
 
   <h3 className="about_project">Nike Website</h3>
 
-  <p className='project__description'>
+  <p className='project__description' style={{ textAlign: 'justify' }}>
 
-  Nike: Your go-to for top-tier sportswear and iconic footwear. Crafted by a team of three in just five days, our platform seamlessly blends fashion with function for athletes and trendsetters worldwide. Elevate your athletic style at Nike.  </p>
+  Explore Nike's online world, where style meets performance. Our website, crafted by a talented team in just five days, showcases top-notch sportswear and iconic footwear. Dive into a user-friendly experience that reflects our dedication to excellence. Elevate your online shopping with Nike - where innovation and style come together 
+  </p>
 
 
   <ul className='project__stack' >
@@ -149,7 +150,7 @@ function Projects()
 
         <h3 className="about_project">Travel App</h3>
 
-        <p className='project__description'>
+        <p className='project__description' style={{ textAlign: 'justify' }}>
         
 Discover and plan your journeys effortlessly with the Travel App. Explore destinations, find hotels, flights, and activities. Access details like reviews, prices, and key attractions. Your ultimate travel companion for seamless adventures.
         </p>
@@ -253,7 +254,7 @@ Discover and plan your journeys effortlessly with the Travel App. Explore destin
 
   <h3 className="about_project">Cara E-commerce Web App</h3>
 
-  <p className='project__description'>
+  <p className='project__description' style={{ textAlign: 'justify' }}>
   Our project portfolio proudly showcases the successful development and implementation of the Cara E-commerce Website. As a cutting-edge online shopping platform, Cara seamlessly blends user-friendly design with robust functionality to deliver an unparalleled shopping experience.
   </p>
 
