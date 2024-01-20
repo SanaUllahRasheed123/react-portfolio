@@ -2,7 +2,7 @@
 import {FaHtml5,FaCss3Alt,FaReact,FaNodeJs,FaGithub,FaNode,FaKeyboard,FaBootstrap} from "react-icons/fa"
 import {GrPersonalComputer} from "react-icons/gr"
 import {TbBrandJavascript} from "react-icons/tb"
-import {SiMongodb,SiRedux,SiExpress,SiChakraui,SiNetlify,SiVercel,SiTailwindcss,SiTypescript,SiNextdotjs,SiFirebase,SiPostman} from "react-icons/si"
+import {SiMongodb,SiRedux,SiExpress,SiChakraui,SiNetlify,SiVercel,SiTailwindcss,SiTypescript,SiNextdotjs,SiFirebase,SiPostman,SiVisualstudiocode} from "react-icons/si"
 import Githubcalendar from "react-github-calendar";
 
 import './Skills.css'
@@ -13,8 +13,15 @@ function Skills  () {
     <section className='section skills' id='skills'>
       <h2 className='section__title about_skills'>Skills</h2>
      
+      
 
       <div id='container' className='skills__list'>
+      <li  className='skills__list-item btn btn--plain'>
+          <SiVisualstudiocode size={80} id="color"/>
+          <h5>VS CODE</h5>
+        </li>
+
+
          <li  className='skills__list-item btn btn--plain'>
           <FaHtml5 size={80} id="color" />
           <h5> HTML5</h5>
@@ -32,10 +39,7 @@ function Skills  () {
 
         
 
-        <li  className='skills__list-item btn btn--plain'>
-          <SiChakraui size={80} id="color"/>
-          <h5>SAAS</h5>
-        </li>
+       
 
         <li  className='skills__list-item btn btn--plain'>
           <TbBrandJavascript size={80} id="color"/>
@@ -44,7 +48,7 @@ function Skills  () {
 
         <li  className='skills__list-item btn btn--plain'>
           <FaReact size={80} id="color"/>
-          <h5 > React</h5>
+          <h5 > ReactJS</h5>
         </li>
 
         <li  className='skills__list-item btn btn--plain'>
@@ -66,6 +70,8 @@ function Skills  () {
           <SiRedux size={80} id="color"/>
           <h5>Redux</h5>
         </li>
+
+
         
 
        
@@ -87,7 +93,7 @@ function Skills  () {
 
         <li  className='skills__list-item btn btn--plain'>
           <SiExpress size={80} id="color"/>
-          <h5>Express</h5>
+          <h5>Express Js</h5>
         </li>
 
         <li  className='skills__list-item btn btn--plain'>
@@ -116,7 +122,7 @@ function Skills  () {
 
         <li  className='skills__list-item btn btn--plain'>
           <SiVercel size={80} id="color"/>
-          <h5>Versal</h5>
+          <h5>Vercel</h5>
         </li>
 
 
@@ -131,7 +137,7 @@ function Skills  () {
  
       </div>
 
-      <div id="gitstatus">
+      {/* <div id="gitstatus">
         <h2 className="section__title">Days I <span className="about_skills"> Coded</span></h2>
       
        <Githubcalendar
@@ -142,7 +148,7 @@ function Skills  () {
           color="#2978b5"
     
         />
-      </div>
+      </div> */}
     </section>
   )
 }

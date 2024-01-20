@@ -109,7 +109,7 @@ function About  () {
         </VerticalTimelineElement>
 
 
-        <VerticalTimelineElement date='September 2020 - September 2022'  icon={<SchoolIcon />} contentStyle={{
+        <VerticalTimelineElement date='September 2020 - September 2024'  icon={<SchoolIcon />} contentStyle={{
               boxShadow: `var(--shadow)`,
               backgroundColor: `var(--clr-bg)`,
               textAlign: "center",
@@ -129,7 +129,7 @@ function About  () {
               Bachelor in Information Technology (BS IT)
             </h4>
             <p data-aos="fade-right">
-               University of Education, Township
+               University of Education, Township Lahore
             </p>
 
         </VerticalTimelineElement>
