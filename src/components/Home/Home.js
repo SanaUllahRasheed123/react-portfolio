@@ -77,7 +77,7 @@ function Home() {
       </section>
 
       <a
-        href="https://drive.google.com/file/d/1LJ0SOAwSDCS0tT9F7v5wCButNo0XUknW/view?usp=sharing"
+        href="https://drive.google.com/file/d/1x93qcItVcFDLlKobSIS8-pzGHCStU6JN/view?usp=sharing"
         target="_blank"
         id="resumeButton"
       >
